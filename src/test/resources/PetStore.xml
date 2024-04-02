@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Petstore"
+       annotations="JDK"
+       verbose="1"
+       parallel="classes"
+       thread-count="3"
+       data-provider-thread-count="3"
+>
+    <test name="PetStore" parallel="methods" thread-count="5">
+        <groups>
+            <dependencies>
+                <group name="PetStoreE2E" depends-on="PetStoreSmoke"/>
+            </dependencies>
+        </groups>
+        <classes>
+            <class name="com.walder.at.lib.petshop.PetShopSmokeIT"/>
+            <class name="com.walder.at.lib.petshop.PetShopIT" />
+        </classes>
+    </test>
+</suite>
