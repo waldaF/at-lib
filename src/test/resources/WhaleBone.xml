@@ -11,12 +11,11 @@
     <test name="PetStore" parallel="methods" thread-count="5">
         <groups>
             <dependencies>
-                <group name="PetStoreE2E" depends-on="PetStoreSmoke"/>
+                <group name="WhaleBoneE2E" depends-on="WhaleBoneSmoke"/>
             </dependencies>
         </groups>
         <classes>
-            <class name="com.walder.at.lib.petshop.PetShopSmokeIT"/>
-            <class name="com.walder.at.lib.petshop.PetShopIT" />
+            <class name="com.walder.at.lib.whalebone.WhaleboneSmokeIT"/>
             <class name="com.walder.at.lib.whalebone.WhaleboneBackendIT" />
         </classes>
     </test>

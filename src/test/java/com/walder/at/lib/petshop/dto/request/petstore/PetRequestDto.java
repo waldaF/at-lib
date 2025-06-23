@@ -1,4 +1,4 @@
-package com.walder.at.lib.petshop.dto.request;
+package com.walder.at.lib.petshop.dto.request.petstore;
 
 import com.walder.at.lib.data.JsonRequestResolver;
 import com.walder.at.lib.petshop.dto.Status;

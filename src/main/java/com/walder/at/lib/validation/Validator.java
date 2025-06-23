@@ -46,7 +46,7 @@ public class Validator extends ErrorMessage {
 		super.notSizeAddErrorMessage(actual, expected);
 	}
 
-	public void logToReporter() {
+	public void logToReporterAndMarkFailedIfError() {
 		if (CollectionUtils.isEmpty(this.errors)) {
 			return;
 		}

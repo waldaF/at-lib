@@ -1,4 +1,4 @@
-package com.walder.at.lib.petshop.dto.request;
+package com.walder.at.lib.petshop.dto.request.petstore;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.walder.at.lib.data.JsonRequestResolver;
