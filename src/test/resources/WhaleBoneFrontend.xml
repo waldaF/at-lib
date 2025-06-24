@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="WhaleboneFrontend"
+       annotations="JDK"
+       verbose="1"
+       parallel="classes"
+       thread-count="3"
+       data-provider-thread-count="3"
+>
+    <test name="WhaleboneFrontend" parallel="methods" thread-count="5">
+        <classes>
+            <class name="com.walder.at.lib.whalebone.WhaleboneSeleniumIT" />
+        </classes>
+    </test>
+</suite>

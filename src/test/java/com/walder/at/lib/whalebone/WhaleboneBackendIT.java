@@ -2,11 +2,8 @@ package com.walder.at.lib.whalebone;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.walder.at.lib.SuiteGroup;
-import com.walder.at.lib.petshop.dto.request.whalebone.TeamsRequestDto;
-import com.walder.at.lib.petshop.dto.response.whalebone.TeamsResponse;
-import com.walder.at.lib.petshop.dto.vo.MoreThanOneTeamHelperVo;
-import com.walder.at.lib.petshop.dto.vo.TeamByDiviosionHelperVo;
-import com.walder.at.lib.petshop.dto.vo.TeamsResponseVo;
+import com.walder.at.lib.dto.request.whalebone.TeamsRequestDto;
+import com.walder.at.lib.dto.response.whalebone.TeamsResponse;
 import com.walder.at.lib.report.ExtentReportManager;
 import com.walder.at.lib.validator.TeamsValidator;
 import com.walder.at.lib.wrapper.ClientWrapper;

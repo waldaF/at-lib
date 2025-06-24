@@ -1,9 +1,9 @@
 package com.walder.at.lib.validator;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.walder.at.lib.petshop.dto.Status;
-import com.walder.at.lib.petshop.dto.request.petstore.PetRequestDto;
-import com.walder.at.lib.petshop.dto.response.PetResponseDto;
+import com.walder.at.lib.dto.Status;
+import com.walder.at.lib.dto.request.petstore.PetRequestDto;
+import com.walder.at.lib.dto.response.PetResponseDto;
 import com.walder.at.lib.validation.Validator;
 import lombok.experimental.UtilityClass;
 

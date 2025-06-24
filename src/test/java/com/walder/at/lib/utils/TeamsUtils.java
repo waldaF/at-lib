@@ -1,6 +1,6 @@
 package com.walder.at.lib.utils;
 
-import com.walder.at.lib.petshop.dto.response.whalebone.Team;
+import com.walder.at.lib.dto.response.whalebone.Team;
 import lombok.experimental.UtilityClass;
 
 import java.util.Collections;

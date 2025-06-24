@@ -2,12 +2,12 @@ package com.walder.at.lib.petshop;
 
 import com.aventstack.extentreports.ExtentTest;
 import com.walder.at.lib.SuiteGroup;
-import com.walder.at.lib.petshop.dto.Status;
-import com.walder.at.lib.petshop.dto.request.petstore.FindByIdRequestDto;
-import com.walder.at.lib.petshop.dto.request.petstore.FindByStatusRequestDto;
-import com.walder.at.lib.petshop.dto.request.petstore.PetRequestDto;
-import com.walder.at.lib.petshop.dto.response.Category;
-import com.walder.at.lib.petshop.dto.response.PetResponseDto;
+import com.walder.at.lib.dto.Status;
+import com.walder.at.lib.dto.request.petstore.FindByIdRequestDto;
+import com.walder.at.lib.dto.request.petstore.FindByStatusRequestDto;
+import com.walder.at.lib.dto.request.petstore.PetRequestDto;
+import com.walder.at.lib.dto.response.Category;
+import com.walder.at.lib.dto.response.PetResponseDto;
 import com.walder.at.lib.report.ExtentReportManager;
 import com.walder.at.lib.validator.PetStoreValidator;
 import com.walder.at.lib.wrapper.ClientWrapper;

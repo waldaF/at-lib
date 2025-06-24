@@ -1,8 +1,8 @@
 package com.walder.at.lib.validator;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.walder.at.lib.petshop.dto.response.whalebone.TeamsResponse;
-import com.walder.at.lib.petshop.dto.vo.TeamsResponseVo;
+import com.walder.at.lib.dto.response.whalebone.TeamsResponse;
+import com.walder.at.lib.whalebone.TeamsResponseVo;
 import com.walder.at.lib.utils.TeamsUtils;
 import com.walder.at.lib.validation.Validator;
 import lombok.experimental.UtilityClass;

@@ -38,6 +38,10 @@ public class Validator extends ErrorMessage {
 		super.isNullAddErrorMessage(value, fieldName);
 	}
 
+	public void validateInRange(int actual, int expectedMin, int expectedMax, String fieldName) {
+		super.notInRangeAddErrorMessage(actual, expectedMin, expectedMax, fieldName);
+	}
+
 	public void validateEquals(final Object actual, final Object expected, final String fieldName) {
 		super.notEqualsAddErrorMessage(actual, expected, fieldName);
 	}

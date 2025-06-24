@@ -2,7 +2,7 @@ package com.walder.at.lib.petshop;
 
 import com.walder.at.lib.auth.BasicAuthProvider;
 import com.walder.at.lib.auth.UnAuthProvider;
-import com.walder.at.lib.client.Client;
+import com.walder.at.lib.client.rest_api.Client;
 import com.walder.at.lib.listener.TestNgListener;
 import com.walder.at.lib.provider.KeyProvider;
 import org.testng.annotations.BeforeClass;
