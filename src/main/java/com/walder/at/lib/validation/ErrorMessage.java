@@ -35,7 +35,11 @@ public abstract class ErrorMessage {
 			errors.add(generateEqualsMessage(fieldName, actual, expected));
 		}
 	}
-
+	protected void notInRangeAddErrorMessage(int actual, int expectedMin, int expectedMax, String fieldName) {
+		if (actual < expectedMin || actual > expectedMax) {
+			errors.add(generateRangeMessage(fieldName, actual, expectedMin, expectedMax));
+		}
+	}
 	protected <T, R> void notSizeAddErrorMessage(final Collection<T> actual, final Collection<R> expected) {
 		if (!validateEquals(actual.size(), expected.size())) {
 			errors.add(generateSizeMessage(actual.size(), expected.size()));
@@ -91,6 +95,12 @@ public abstract class ErrorMessage {
 			return StringUtils.isEmpty(actual);
 		}
 		return expected.equals(actual);
+	}
+
+	private <T> String generateRangeMessage(String fieldName, int actual, int expectedMin, int expectedMax) {
+		return String.format("field %s was expected to be in range [%d - %d], but was %d",
+				fieldName, expectedMin, expectedMax, actual
+		);
 	}
 
 	private <T> String generateSizeMessage(final T actual, final T expected) {

@@ -1,8 +1,8 @@
-package com.walder.at.lib.client;
+package com.walder.at.lib.client.rest_api;
 
 import com.walder.at.lib.auth.AbstractAuthProvider;
 import com.walder.at.lib.enumerations.ComplianceHttpStatus;
-import com.walder.at.lib.response.ResponseVo;
+import com.walder.at.lib.client.rest_api.response.ResponseVo;
 import jakarta.ws.rs.client.Entity;
 import jakarta.ws.rs.client.Invocation;
 import jakarta.ws.rs.client.WebTarget;

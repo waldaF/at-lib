@@ -1,10 +1,10 @@
-package com.walder.at.lib.client;
+package com.walder.at.lib.client.rest_api;
 
 import com.walder.at.lib.auth.AbstractAuthProvider;
 import com.walder.at.lib.data.JsonRequestResolver;
 import com.walder.at.lib.enumerations.HttpOperation;
 import com.walder.at.lib.exceptions.HttpMethodNotSupportedException;
-import com.walder.at.lib.response.ResponseVo;
+import com.walder.at.lib.client.rest_api.response.ResponseVo;
 import jakarta.ws.rs.core.Response;
 import lombok.RequiredArgsConstructor;
 

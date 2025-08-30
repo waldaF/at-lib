@@ -1,10 +1,10 @@
 package com.walder.at.lib.wrapper;
 
 import com.aventstack.extentreports.ExtentTest;
-import com.walder.at.lib.client.Client;
+import com.walder.at.lib.client.rest_api.Client;
 import com.walder.at.lib.data.JsonRequestResolver;
 import com.walder.at.lib.enumerations.HttpOperation;
-import com.walder.at.lib.response.ResponseVo;
+import com.walder.at.lib.client.rest_api.response.ResponseVo;
 import com.walder.at.lib.utils.ExtentTestLogUtils;
 import lombok.experimental.UtilityClass;
 

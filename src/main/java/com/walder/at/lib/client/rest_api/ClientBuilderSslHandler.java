@@ -1,4 +1,4 @@
-package com.walder.at.lib.client;
+package com.walder.at.lib.client.rest_api;
 
 import jakarta.ws.rs.client.ClientBuilder;
 import lombok.NoArgsConstructor;

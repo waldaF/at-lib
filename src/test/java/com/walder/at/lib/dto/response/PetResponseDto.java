@@ -1,6 +1,6 @@
-package com.walder.at.lib.petshop.dto.response;
+package com.walder.at.lib.dto.response;
 
-import com.walder.at.lib.petshop.dto.Status;
+import com.walder.at.lib.dto.Status;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

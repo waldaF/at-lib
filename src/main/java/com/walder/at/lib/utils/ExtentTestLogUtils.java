@@ -5,11 +5,11 @@ import com.aventstack.extentreports.markuputils.CodeLanguage;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.Markup;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.walder.at.lib.client.Client;
+import com.walder.at.lib.client.rest_api.Client;
 import com.walder.at.lib.data.JsonRequestResolver;
 import com.walder.at.lib.enumerations.ComplianceHttpStatus;
 import com.walder.at.lib.enumerations.HttpOperation;
-import com.walder.at.lib.response.ResponseVo;
+import com.walder.at.lib.client.rest_api.response.ResponseVo;
 import jakarta.ws.rs.core.Response;
 import lombok.experimental.UtilityClass;
 

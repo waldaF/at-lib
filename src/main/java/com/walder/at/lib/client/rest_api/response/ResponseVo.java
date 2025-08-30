@@ -1,4 +1,4 @@
-package com.walder.at.lib.response;
+package com.walder.at.lib.client.rest_api.response;
 
 import com.google.gson.FieldNamingPolicy;
 import com.walder.at.lib.enumerations.ComplianceHttpStatus;

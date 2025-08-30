@@ -1,8 +1,8 @@
-package com.walder.at.lib.petshop.dto.request;
+package com.walder.at.lib.dto.request.petstore;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.walder.at.lib.data.JsonRequestResolver;
-import com.walder.at.lib.petshop.dto.Status;
+import com.walder.at.lib.dto.Status;
 import jakarta.ws.rs.client.Client;
 import jakarta.ws.rs.client.ClientBuilder;
 import jakarta.ws.rs.client.WebTarget;

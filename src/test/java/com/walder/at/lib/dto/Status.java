@@ -1,4 +1,4 @@
-package com.walder.at.lib.petshop.dto;
+package com.walder.at.lib.dto;
 
 import com.google.gson.annotations.SerializedName;
 

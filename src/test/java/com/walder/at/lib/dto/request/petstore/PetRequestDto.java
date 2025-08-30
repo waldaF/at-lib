@@ -1,8 +1,8 @@
-package com.walder.at.lib.petshop.dto.request;
+package com.walder.at.lib.dto.request.petstore;
 
 import com.walder.at.lib.data.JsonRequestResolver;
-import com.walder.at.lib.petshop.dto.Status;
-import com.walder.at.lib.petshop.dto.response.Category;
+import com.walder.at.lib.dto.Status;
+import com.walder.at.lib.dto.response.Category;
 import lombok.Builder;
 import lombok.Getter;
 

@@ -1,9 +1,11 @@
-package com.walder.at.lib.petshop.dto.response;
+package com.walder.at.lib.dto.response.whalebone;
 
+import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
-public class Category {
+@Getter
+public class Division {
 	private final int id;
 	private final String name;
 }
